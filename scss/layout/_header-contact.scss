@@ -1,0 +1,35 @@
+.header-contact-box {
+  @include centerFlex();
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.header-contact {
+  @include centerFlex();
+  gap: 15px;
+}
+
+.header-contact-marg{
+    margin-left: 50px;
+}
+
+.header-contact__text {
+  font-weight: 700;
+}
+
+// .header-contact__link {
+//   display: flex;
+//   height: 40px;
+// }
+
+.header-contact__icon {
+  @include centerFlex();
+}
+.header-contact__mobile {
+  @include centerFlex();
+}
+.header-contact__tel {
+  font-weight: 700;
+  color: $primary-text-color;
+  text-decoration: none;
+}
