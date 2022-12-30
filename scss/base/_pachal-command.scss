@@ -3,6 +3,7 @@ body {
   color: $primary-text-color;
   font-family: Nova, sans-serif;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .section {
@@ -11,7 +12,7 @@ body {
 }
 
 .header {
-  border: 1px solid #ececec;
+  border: 1px solid $bg-color-footer;
 }
 
 .container {
