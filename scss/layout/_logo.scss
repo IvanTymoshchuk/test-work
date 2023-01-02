@@ -1,0 +1,16 @@
+.logo-header {
+  @include centerFlex();
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo-header__link {
+  font-size: 36px;
+  line-height: 1.25;
+  color: $primary-text-color;
+  list-style: none;
+}
+
+.logo-header__name {
+  color:$bg-color-text;
+}

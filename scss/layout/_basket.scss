@@ -1,0 +1,14 @@
+.basket {
+  @include centerFlex();
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.basket-wrap {
+  @include centerFlex();
+  gap: 5px;
+}
+
+.basket-link {
+  color: $primary-text-color;
+}

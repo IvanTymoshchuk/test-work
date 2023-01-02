@@ -1,27 +1,23 @@
-.header-main__nav {
-  @include centerFlex();
-  flex-direction: row;
-  padding: 10px 0;
-}
-
 .header-contact {
   @include centerFlex();
-  gap: 15px;
 }
 
-.header-contact-marg {
+.header-contact__link {
   display: flex;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.header-contact__marg {
   margin-left: 50px;
 }
 
-.header-contact__text {
-  font-weight: 700;
+.header-contact__list {
+  @include centerFlex();
+  gap: 5px;
 }
-
-// .header-contact__link {
-//   display: flex;
-//   height: 40px;
-// }
 
 .header-contact__icon {
   @include centerFlex();
@@ -30,7 +26,9 @@
   @include centerFlex();
 }
 .header-contact__tel {
-  font-weight: 700;
+  @include centerFlex();
+  gap: 5px;
+
   color: $primary-text-color;
   text-decoration: none;
 }

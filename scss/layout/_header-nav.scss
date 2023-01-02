@@ -6,9 +6,13 @@
   gap: 15px;
 }
 
-.header-nav__link{
-font-weight: 700;
-font-size: 18px;
-text-transform: uppercase;
-color: $primary-text-color;
+.header-main__nav {
+  @include centerFlex();
+  padding: 10px 0;
+  margin-right: auto;
+}
+
+.header-nav__link {
+  text-transform: uppercase;
+  color: $primary-text-color;
 }

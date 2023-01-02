@@ -1,0 +1,16 @@
+.custum {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+  padding: 41px 0;
+}
+.categories-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}

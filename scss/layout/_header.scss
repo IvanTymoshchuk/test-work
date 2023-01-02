@@ -1,5 +1,5 @@
 .header-container {
-    @include centerFlex();
-    margin-right: auto;
-  }
-  
+  @include centerFlex();
+  margin-right: auto;
+  border-bottom: 1px solid $bg-color-footer;
+}
