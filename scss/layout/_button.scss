@@ -33,3 +33,21 @@
   background-color: $bg-color-footer;
   transform: rotate(270deg);
 }
+
+.button-benefist {
+  position: absolute;
+  cursor: pointer;
+  top: 150px;
+  left: 15px;
+  fill: $fill-icon;
+  background-color: transparent;
+}
+
+.button-benefist__position {
+  position: absolute;
+  cursor: pointer;
+  top: 150px;
+  right: 15px;
+  background-color: transparent;
+  rotate: 180deg;
+}
