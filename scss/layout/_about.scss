@@ -1,0 +1,40 @@
+.about {
+  padding-bottom: 100px;
+}
+.about-foto-wrap {
+  display: flex;
+  justify-content: end;
+}
+.about-text-wrap {
+  position: absolute;
+  top: 3170px;
+  display: flex;
+  flex-direction: column;
+  width: 791px;
+  height: 475px;
+  padding: 50px 30px 51px;
+  border-radius: 3px;
+  background-color: $bg-color-body;
+  border-right: 15px solid $bg-color-text;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-text:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.about-text,
+.about-text__color {
+  line-height: 1.25;
+  font-family: "Proxima Nova";
+}
+.about-text__color {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $bg-color-text;
+}
