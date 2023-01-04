@@ -21,6 +21,11 @@
 
 .header-contact__icon {
   @include centerFlex();
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: $bg-color-text;
+  }
 }
 .header-contact__mobile {
   @include centerFlex();
